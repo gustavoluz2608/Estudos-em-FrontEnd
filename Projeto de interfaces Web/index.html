@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <title>GustavoFlix</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  
+
+
+  <header class="container header">
+    <div class="row">
+      <div class="col-12 header_area">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+
+
+            <img src="imagens/logo1.jpg" class="logo">
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-10 menu_area">
+
+            <nav class="nav nav-pills flex-column flex-sm-row">
+              <a class="flex-sm-fill text-sm-center nav-link active" href="#">Lançamentos</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Em destaque</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliações</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevistas & makingof</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
+              <form class="d-flex pesquisa">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar filme" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+
+            </nav>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main class="container main">
+
+    <div class="row main_area">
+
+      <div class="col-12">
+
+        <!--duas colunas do carrosel e dos botões-->
+
+        <div class="row">
+    
+                <div class="col-12 col-sm-12 col-md-10">
+                   
+                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="row carousel-inner">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="carousel-item active">
+                                <div id="video">                                    
+                                  <iframe class="video" width="853" height="480" src="https://www.youtube.com/embed/X23XCFgdh2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                  
+                                </div>
+                                <div class="sinopse">  
+                                    <h1>Doutor Estranho</h1>
+                                    <ul>
+                                        <li><strong>Sinopse: </strong>O aguardado filme trata da jornada do Doutor Estranho rumo ao desconhecido. Além de receber ajuda de novos aliados místicos e outros já conhecidos do público, o personagem atravessa as realidades alternativas incompreensíveis e perigosas do Multiverso para enfrentar um novo e misterioso adversário.</li>
+                                        <li><strong>Diretor: </strong>Sam Raimi</li>
+                                        <li><strong>Roteirista: </strong> Michael Waldron, Jade Bartlett</li>
+                                        <li><strong>Estreia: </strong>5 de maio de 2022</li>
+                                        <li><strong>Elenco: </strong>Benedict Cumberbatch, Elizabeth Olsen, Benedict Wong, Chiwetel Ejiofor e Rachel McAdams</li>
+                                        <li><strong>Avaliação:</strong>   <img   class="estrela"   src="imagens/avaliacao.png" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div id="video">                                       
+                                  <iframe class="video" width="876" height="365" src="https://www.youtube.com/embed/UvNnqWLruXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                     
+                                </div>
+                                <div class="sinopse">  
+                                    <h1>Thor Ragnarok</h1>
+                                    <ul>
+                                        <li><strong>Sinopse: </strong>Após anos afastado, Thor retorna para casa e descobre que seu pai, Odin, rei de Asgard, está desaparecido. Após encontrá-lo, ele toma conhecimento de sua irmã mais velha, Hela, a poderosa e implacável deusa da morte. Com o auxílio de Loki, ele enfrenta Hela, mas durante a batalha, Thor acaba preso em Sakaar, um planeta do outro lado do universo. Agora, ele precisa correr contra o tempo para voltar a Asgard e impedir o Ragnarok, a destruição de seu mundo.</li>
+                                        <li><strong>Diretor: </strong>: Taika Waititi</li>
+                                        <li><strong>Roteiristas: </strong>  Craig Kyle, Christopher Yost, Eric Pearson</li>
+                                        <li><strong>Estreia: </strong>26 de outubro de 2017</li>
+                                        <li><strong>Elenco: </strong>Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Idris Elba, Tessa Thompson, Jeff Goldblum, Karl Urban, Mark Ruffalo, Anthony Hopkins, Matt Damon</li>
+                                        <li><strong>Avaliação:</strong>  <img    class="estrela"   src="imagens/avaliacao.png" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div id="video">                                       
+                                  <iframe class="video" width="876" height="365" src="https://www.youtube.com/embed/igfXmU1r_mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                  
+                                </div>
+                                <div class="sinopse">  
+                                    <h1>Homem de Ferro 3</h1>
+                                    <ul>
+                                        <li><strong>Sinopse: </strong>Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso.</li>
+                                        <li><strong>Diretora: </strong>  Shane Black</li>
+                                        <li><strong>Roteirista: </strong>  Shane Black, Stan Lee, Drew Pearce, Jack Kirby, Larry Lieber</li>
+                                        <li><strong>Estreia: </strong>26 de abril de 2013</li>
+                                        <li><strong>Elenco: </strong> Robert Downey Jr., Gwyneth Paltrow, Don Cheadle Guy, Pearce Rebecca, Hall Stephanie, Szostak James, Badge Dale, Jon Favreau, Ben Kingsley</li>
+                                        <li><strong>Avaliação:</strong>   <img    class="estrela"    src="imagens/avaliacao.png" alt=""></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+            </div>
+
+       
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+      
+
+
+
+    </div>
+
+    <!--card de anuncio-->
+
+    <div class="row">
+
+      
+      <select class="form-select tamanho col-lg-6" aria-label="Default select example">
+        <option selected>Categorias: TODOS</option>
+        <option value="1">Aventura</option>
+        <option value="2">Romance</option>
+        <option value="3">Comédia</option>
+      </select>
+      <h1 class="col-lg-6">Destaques</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+
+        <div class="card">
+          <img src="imagens/cartaz1.jpg" class="card-img-top" alt="Apartamento 1">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-Warning"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+
+        <div class="card">
+          <img src="imagens/cartaz2.jpg" class="card-img-top" alt="Apartamento 2">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-Warning"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+
+        <div class="card">
+          <img src="imagens/cartaz3.jpg" class="card-img-top" alt="Apartamento 3">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-Warning"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+
+        <div class="card">
+          <img src="imagens/cartaz4.jpg" class="card-img-top" alt="Apartamento 4">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-Warning"></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    </div>
+
+    </div>
+    <button type="button" class="btn btn-primary btn_1">Carregar mais</button>
+
+
+    <div class="row margin">
+      <h2 class="col-lg-12">Últimas avaliações</h2>
+    </div>
+   <div class= "row em-destaque">
+     
+     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+       <div class="avaliacoes">
+         <picture>
+           <source srcset=""  type="image/svg=xml">
+           <img class="foto" src="imagens/critico3.jpeg" class="img-fluid img-thumbnail" alt="..">
+           <h5><strong>Leticia Silva</strong></h5>
+           <p> "Filme super divertido, e esse último serviu para amarrar bem a historia, semelhante aos HQs."</p>
+           <img class="estrela" src="imagens/avaliacao.png" alt="">
+           
+          </picture>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="avaliacoes">
+          <picture>
+            <source srcset=""  type="image/svg=xml">
+            <img class="foto" src="imagens/critico2.jpg" class="img-fluid img-thumbnail" alt="..">
+            <h5><strong>Giovane Cunha</strong></h5>
+            <p> "O filme possui uma trama bem amarrada focada no enredo e cumpre ao que se propõe."</p>
+            <img class="estrela" src="imagens/avaliacao2.png" alt="">
+           
+           </picture>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="avaliacoes">
+            <picture>
+              <source srcset=""  type="image/svg=xml">
+              <img class="foto" src="imagens/critico4.jpg" class="img-fluid img-thumbnail" alt="..">
+              <h5><strong>Vinicius Lopes</strong></h5>
+              <p> "Filme emocionante e intrigante que me garantiu bons momentos de entretenimento."</p>
+              <img class="estrela" src="imagens/avaliacao.png" alt="">
+              
+             </picture>
+            </div>
+          </div>
+    </div>
+
+    <button type="button" class="btn btn-primary btn_1">Carregar mais</button>
+  </div>
+  <div class="row">
+    <h1 class="col-12">Entrevistas e MakingOf</h1>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="filme">                                       
+        <iframe width="250" height="120" src="https://www.youtube.com/embed/0HEvyxNJRks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+      <p><strong>Diretor: </strong>Ronald Trump</p>
+      <p><strong>Roteiristas: </strong>Figueiredo Aloisio</p>
+      <p><strong>Ano: </strong>2017</p>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="filme">                                       
+        <iframe width="250" height="120" src="https://www.youtube.com/embed/0PfH-Zqxq9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+      <p><strong>Diretor: </strong>Jacob Abraham</p>
+      <p><strong>Roteiristas: </strong> Michel Bryan</p>
+      <p><strong>Ano: </strong>2016</p>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="filme">                                       
+        <iframe width="250" height="120" src="https://www.youtube.com/embed/fgUyRVOSqlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+      <p><strong>Diretor: </strong>Jordan Brown</p>
+      <p><strong>Roteiristas: </strong>Charlie Jr.</p>
+      <p><strong>Ano: </strong>2014</p>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <h1><strong>Novidades</strong></h1>
+      <div>
+        <img class="novidade" src="imagens/animais.webp" alt="">
+        <h2>Animais Fantásticos 3: Maria Fernanda Cândido</h2>
+        <p>A esta altura, você deve estar ciente de que Maria Fernanda Cândido faz uma participação mais do que especial em Animais Fantásticos: Os Segredos de Dumbledore, terceiro filme da franquia derivada de Harry Potter. Se você assistiu à entrevista exclusiva do AdoroCinema, você também sabe que a intérprete de Vicência Santos.</p>
+      </div>
+
+      <div>
+        <img class="novidade" src="imagens/theflight.jpg" alt="">
+        <h2>The Flight Attendant</h2>
+        <p>A 2ª temporada de The Flight Attendant chega ao catálogo da HBO Max em 21 de abril. Os novos episódios da série vão acompanhar a comissária de bordo, Cassie, redescobrindo a sobriedade e dividindo seu tempo entre os trabalhos no avião e um ofício paralelo na CIA.</p>
+      </div>
+
+      <div>
+        <img class="novidade" src="imagens/doutor.jpg" alt="">
+        <h2>Doutor Estranho 2 mostra algo</h2>
+        <p>Doutor Estranho no Multiverso da Loucura é o filme mais importante na Fase Quatro do Universo Cinematográfico Marvel.
+
+        </p>
+      </div>
+
+    </div>
+    <div class="col-lg-4">
+      <h1><strong>Sobre</strong></h1>
+      <p>GustavoFlix é um serviço de streaming com o intuito de levar a sétima arte a todas as pessoas. Seja através do conteúdo do blog, das notícias nas redes sociais ou dos produtos de nossa loja exclusivamente criados para os amantes da sétima arte, nossa motivação é divulgar, incentivar e inspirar cada vez mais cinema.</p>
+      
+      <h1><Strong>Editorial</Strong></h1>
+      <p><strong>Redação: </strong>Gustavo Moura</p>
+      <p><strong>Pesquisa: </strong>Gustavo Moura</p>
+      <p><strong>Gerente geral: </strong>Gustavo Moura</p>
+
+      <h1><STROng>Redes sociais</STROng></h1>
+      <img class="icon" src="imagens/twitter.png" alt="">
+      <img class="icon" src="imagens/facebook.png" alt="">
+      <img class="icon" src="imagens/instagram.png" alt="">
+
+
+    </div>
+
+  </div>
+
+
+  
+
+   
+  </main>
+
+  <footer class="container footer">
+    <div class="row">
+      <div class="col-12 footer_area">
+        <div class="row">
+          <div id="copyright" class="col-7 col-sm-8 col-md-9 col-lg-10">
+
+
+            Copyright 2022 - Disciplina de desenvolvimento de interfaces Web - GustavoFlix
+
+          </div>
+
+
+
+          <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+
+
+            <img src="imagens/logo1.jpg" class="logo_footer">
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

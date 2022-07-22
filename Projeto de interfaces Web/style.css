@@ -1,0 +1,214 @@
+
+.header{
+     background: rgb(0, 0, 0);
+     margin-bottom: 20px;
+     text-align: center;
+
+}
+
+.header_area{
+    padding: 20px;
+}
+
+.menu_area{
+    margin-top: 30px;
+}
+
+.menu_area nav a{
+    background-color: #b833335e;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu_area nav a:hover{
+    background-color: #aa44445e;
+
+}
+
+
+.active{
+    background-color: #7c37375e !important;
+}
+
+.logo{
+    width: 150px;
+}
+
+.main{
+ 
+}
+
+.main .card{
+    margin-bottom: 15px;
+}
+
+.main .area{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-top: 50px;
+    background: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
+
+.modal-body img{width: 100%;}
+
+.menu_area2{
+    margin-top: 30px;
+}
+
+.menu_area2 nav a{
+    background-color: #f38e0a5e;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu_area2 nav a:hover{
+    background-color: #f3a9095e;
+
+}
+
+.logo_footer{
+    width: 110px;
+}
+
+.pesquisa{
+    width: 200px;
+}
+
+.estrela{
+    width: 5vw;
+}
+
+.tamanho{
+    width: 15vw;
+    margin-left: 60vw;
+    margin-bottom: 10px;
+}
+
+.foto{
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.btn_1{
+    float: right;
+    margin-bottom: 100px;
+}
+
+.margin{
+    margin-top: 50px;
+}
+
+.icon{
+    width: 35px;
+}
+
+body{
+    background-color: rgb(37, 18, 18);
+
+}
+
+h1,p{
+    color: beige;
+}
+
+/* Media Queries*/
+@media screen and (max-width:480px) 
+{
+    #video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    
+    #video .video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px)
+{
+    #video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    
+    #video .video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:1279px)
+{
+    #video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    
+    #video .video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
+}
+@media screen and (min-width:1280px)
+{
+    #video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    
+    #video .video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+ul, li{
+    color: rgb(255, 255, 255);
+}
+
+.novidade{
+    width: 250px;
+    display: flex;
+}
+
+h5{
+    color: rgb(101, 105, 105);
+}
